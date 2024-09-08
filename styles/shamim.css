@@ -1,0 +1,53 @@
+ .img-header{
+  background-image: url(../imgs/Sub\ Container.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section1-title{
+  color:#fff;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  align-items: center;
+}
+.section1-titr{
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  margin-top: 10px;
+}
+.section1-titr1{
+  display: none;
+}
+.section1-btn{
+  background-color: #E50000;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  border: none;
+}
+.section1-btn img{
+  padding: 14px;
+}
+.section1-btn h3{
+  font-size: 14px;
+  padding-right:24px;
+}
+.section1{
+  padding-top: 600px;
+}
+@media screen and (max-width:790px){
+  .section1-titr span{
+      display: none;
+      max-width: 390px;
+      
+  }
+  
+} 
