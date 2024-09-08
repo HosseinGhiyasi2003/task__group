@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Manrope';
+  background-color: #1E1E1E;
 }
 
 .container {
@@ -15,6 +16,74 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-inline: 14px;
+}
+
+.api-section {
+  margin-top: 200px;
+}
+
+.api-header__left h3 {
+  font-size: 38px;
+  color: #fff;
+}
+
+.api-header__left p {
+  font-size: 18px;
+  margin-top: 14px;
+  color: #999999;
+}
+
+.swiper_1 {
+  height: 342px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.movie-slide {
+  background-color: rgb(46, 46, 46);
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.swiper-slide-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-slide img {
+  height: 100%;
+  }
+
+.movie-slide__bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.movie-slide__bottom img {
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 20px;
+}
+.swiper-button-prev img {
+  margin-right: -25px;
+  z-index: 1;
+}
+
+.swiper-button-next {
+  margin-right: -7px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.1);
 }
 
 .trial-header {
@@ -26,11 +95,13 @@ body {
 .trial-header__left h3 {
   font-size: 38px;
   font-weight: bold;
+  color: #fff;
 }
 
 .trial-header__left p {
   font-size: 18px;
   margin-top: 10px;
+  color: #999999;
 }
 
 .trial-btns {
@@ -83,7 +154,7 @@ body {
 }
 
 .trial-card .trial-title {
-  color: #fff;
+  color: #fff ;
 }
 
 .trial-card .trial-desc {
