@@ -17,3 +17,119 @@ body {
   padding-inline: 14px;
 }
 
+.trial-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trial-header__left h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.trial-header__left p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.trial-btns {
+  display: flex;
+  gap: 20px;
+  background-color: #000;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+
+.trial-btns button {
+  all: unset;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.trial-btns button:nth-child(1) {
+  all: unset;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.trial-btns button:nth-child(2) {
+  all: unset;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.trial-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.trial-card {
+  background-color: #262626;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.trial-card .trial-title {
+  color: #fff;
+}
+
+.trial-card .trial-desc {
+  max-width: 412px;
+  color: #999999;
+  margin-top: 20px;
+}
+
+.trial-price {
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.trial-price span {
+  color: #999999;
+  font-size: 16px;
+}
+
+.trial-card__btns {
+  display: flex ;
+  gap: 20px;
+
+}
+
+.trial-card__btns button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.trial-card__btns button:nth-child(1) {
+  background-color: #141414;
+  color: #fff;
+}
+.trial-card__btns button:nth-child(2) {
+  background-color: #E50000;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .trial-header {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
