@@ -197,6 +197,111 @@ body {
   color: #fff;
 }
 
+.header-Frequently{
+  display: flex;
+  background-color: #1E1E1E;
+  color: white;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: space-around;
+} 
+.btm-Frequently{
+  width: 138px;
+  height: 38px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  background-color: #E50000;
+}
+.p-Frequently{
+  color: #999999;
+}
+.left-main-Frequently{
+  width: 50%;
+}
+.right-main-Frequently{
+  /* padding-left: 25px; */
+  width: 50%;
+}
+.all-freqnce{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  background-color: #1E1E1E;
+  color: white;
+  padding: 30px;
+}
+.first-one{
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+.span-h4{
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.span-h4_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.faq-plus {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.number-first-one{
+  font-size: 20px;
+  background-color:#262626;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.h4-Frequently{
+  font-size: 20px;
+}
+.myp {
+  margin-top: 14px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (max-width: 1260px) {
+  .all-freqnce {
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+  }
+  .left-main-Frequently {
+    width: 100%;
+  }
+  .right-main-Frequently {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 992px) {
+  .first-one img {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .trial-header {
