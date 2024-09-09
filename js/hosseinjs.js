@@ -4,9 +4,11 @@ const nav_ul = document.querySelector('.nav-ul');
 
 
 menuIcon.addEventListener('click', ()=> {
-  nav_ul.classList.toggle('show');
+  nav_ul.classList.add('show');
 });
 
-menuIcon.addEventListener('click', ()=> {
-  nav_ul.classList.toggle('show');
+bx_plus.addEventListener('click', ()=> {
+  nav_ul.classList.remove('show');
+  console.log(nav_ul);
 })
+
