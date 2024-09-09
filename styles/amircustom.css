@@ -1,0 +1,18 @@
+.our-gunres{
+  padding: 25px;
+}
+.my-item{
+  padding: 10px;
+  background-color: #262626;
+  border-radius: 25px;
+}
+.my-item h2{
+  color: white;
+}
+span{
+  color: white;
+}
+.icon-tittle{
+  display: flex;
+  gap: 20px;
+}
