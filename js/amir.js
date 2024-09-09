@@ -1,11 +1,11 @@
 // header
 
 const hamburger = document.querySelector(".hamburger");  
+const navbar = document.querySelector('.ul-navbar');  
 
 function toggleMenu() {  
-    const navbar = document.querySelector('.ul-navbar');  
     navbar.classList.toggle('active');   
-    console.log(navbar);  
+    console.log(navbar);
 }  
 
 
