@@ -2,14 +2,18 @@
 
 const hamburger = document.querySelector(".hamburger");  
 const navbar = document.querySelector('.ul-navbar');  
+const icon = document.querySelector('.bx-plus')
 
 function toggleMenu() {  
-    navbar.classList.toggle('active');   
+    navbar.classList.add('active');   
     console.log(navbar);
 }  
 
 
 hamburger.addEventListener('click', toggleMenu);
+icon.addEventListener('click', ()=> {
+    navbar.classList.remove('active');
+})
 
 // fag
 let isPlus = true
