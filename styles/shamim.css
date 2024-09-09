@@ -44,6 +44,58 @@
 .section1{
   padding-top: 600px;
 }
+
+.section2-title{
+  color: #fff;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 14px;
+}
+.section2-titr{
+  font-size: 18px;
+  color: #999999;
+  margin-bottom: 80px;
+}
+.section2-card{
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  padding: 50px;
+  flex-grow: 1;
+  width: 400px;
+  transition: .5s;
+  cursor: pointer;
+}
+.section2-card:hover {
+  transform: scale(1.1);
+}
+
+.card-top{
+  display: flex;
+  gap: 16px;
+}
+.card-top h4{
+  font-size: 24px;
+  color: #fff;
+}
+.section2-card p{
+  font-size: 18px;
+  color: #999999;
+  margin-top: 30px;
+}
+.card-list1{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card-list2{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width:790px){
   .section1-titr span{
       display: none;
