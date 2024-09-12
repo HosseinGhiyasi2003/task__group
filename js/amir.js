@@ -1,19 +1,17 @@
 // header
 
-const hamburger = document.querySelector(".hamburger");  
-const navbar = document.querySelector('.ul-navbar');  
-const icon = document.querySelector('.bx-plus')
+const navMenu = document.querySelector('.nav-menu');
+const bx_plus = document.querySelector('.bx-plus');
+const nav_ul = document.querySelector('.nav-ul');
 
-function toggleMenu() {  
-    navbar.classList.add('active');   
-    console.log(navbar);
-}  
+navMenu.addEventListener('click', ()=> {
+    nav_ul.classList.add('show')
+});
 
+bx_plus.addEventListener('click', ()=> {
+    nav_ul.classList.remove('show')
+});
 
-hamburger.addEventListener('click', toggleMenu);
-icon.addEventListener('click', ()=> {
-    navbar.classList.remove('active');
-})
 
 // fag
 let isPlus = true
