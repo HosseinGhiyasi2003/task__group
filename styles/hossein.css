@@ -11,6 +11,10 @@ body {
   background-color: #1E1E1E;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1440px;
   margin-left: auto;
@@ -203,7 +207,7 @@ body {
   color: white;
   align-items: center;
   margin-top: 150px;
-  justify-content: space-around;
+  justify-content: space-between;
 } 
 .btm-Frequently{
   width: 138px;
@@ -370,7 +374,13 @@ body {
   .first-one img {
     display: none;
   }
-  
+  .header-Frequently {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .p-Frequently {
+    margin: 10px 0 20px;
+  }
 
 }
 
