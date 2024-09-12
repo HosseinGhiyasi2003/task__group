@@ -323,10 +323,16 @@ button {
   gap: 24px;
   
 }
+
+.foot ul li a:hover {
+  text-decoration: underline;
+}
+
 .icons-foot{
   display: flex;
-  gap: 14px;
-  align-items: center;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .icons-foot a {
@@ -350,6 +356,10 @@ button {
   padding-right: 162px;
   padding-top: 24px;
 }
+.foot-gmail p a:hover {
+  text-decoration: underline;
+}
+
 .foot-title{
   color: #fff;
 }
@@ -381,12 +391,30 @@ button {
   .p-Frequently {
     margin: 10px 0 20px;
   }
-
+  .foot ul {
+    width: 45%;
+  }
+  .foot-gmail {
+    /* justify-content: space-between; */
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .trial-header {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .foot {
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+  }.foot-gmail {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 }
