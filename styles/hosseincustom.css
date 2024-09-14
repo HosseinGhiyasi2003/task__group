@@ -228,6 +228,88 @@ nav {
    padding-top: 14px;
    padding-bottom:100px ;
 }
+
+@media screen and (max-width: 1260px) {
+  .container-foot{
+    background-color: #0F0F0F;
+  }
+  .foot{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-bottom: 100px;
+    gap: 30px;
+  }
+  .foot ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color:#999999;
+    gap: 24px;
+    
+  }
+  
+  .foot ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .icons-foot{
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .icons-foot a {
+    width: 44px;
+    height: 44px;
+    background-color: #1A1A1A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #262626;
+    color: #fff;
+  }
+  .foot-gmail{
+    display: flex;
+    justify-content: space-between;
+    color:#999999;
+    font-size: 18px;
+    padding-bottom: 50px;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-top: 24px;
+  }
+  .foot-gmail p a:hover {
+    text-decoration: underline;
+  }
+  
+  .foot-title{
+    color: #fff;
+  }
+  .hr{
+    margin-left: 162px;
+    margin-right: 162px;
+  }
+  .foot a{
+    color: #999999;
+    text-decoration: none;
+  }
+  .foot-title a{
+    color: #fff;
+  }
+  .foot-gmail a{
+    text-decoration: none;
+    color: #999999;
+  }
+}
+
+
 @media screen and (max-width:768px) {
    .container-img{
        display: flex;
@@ -239,17 +321,29 @@ nav {
        align-items: center;
        text-align: center;
    }
-   .container-img p{
-       text-align: center;
-       align-items: center;
-   }
 }
 
 @media screen and (max-width: 992px) {
   .first-one img {
     display: none;
   }
-  
+  .container-img{
+    display: flex;
+    flex-direction:column;
+}
+.content-title{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.container-img p{
+  text-align: center;
+ margin-right: 70px;
+   }
+.content-title button {
+ margin-block: 30px;
+}
 
 }
 
@@ -296,6 +390,13 @@ nav {
     display: block;
     cursor: pointer;
   }
+  .foot ul {
+    width: 45%;
+  }
+  .foot-gmail {
+    /* justify-content: space-between; */
+    gap: 40px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -309,5 +410,17 @@ nav {
   .header-content-btn {
     width: 100%;
     margin-block: 30px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .foot {
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+  }.foot-gmail {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
   }
 }
